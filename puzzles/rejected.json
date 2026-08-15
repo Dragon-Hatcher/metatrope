@@ -1,0 +1,642 @@
+{
+  "schema": 1,
+  "puzzles": [
+    {
+      "id": "kamikaze-ja-la",
+      "clue": "divoventus",
+      "answer": "kamikaze",
+      "acceptable": [
+        "kamikaze"
+      ],
+      "source": {
+        "language": "Japanese"
+      },
+      "target": {
+        "language": "Latin"
+      },
+      "difficulty": 3,
+      "roots": [
+        {
+          "target": "divo-",
+          "source": "kami (神)",
+          "meaning": "god, divine spirit",
+          "targetCognates": [
+            "divine",
+            "deity",
+            "deify"
+          ],
+          "sourceCognates": [],
+          "sources": [
+            "hand-authored seed — not machine-verified"
+          ]
+        },
+        {
+          "target": "-ventus",
+          "source": "kaze (風)",
+          "meaning": "wind",
+          "targetCognates": [
+            "vent",
+            "ventilate",
+            "hyperventilate"
+          ],
+          "sourceCognates": [],
+          "sources": [
+            "hand-authored seed — not machine-verified"
+          ]
+        }
+      ],
+      "note": "神風 — the “divine wind,” the typhoon that wrecked two Mongol invasion fleets, borrowed seven centuries later as a codename.",
+      "generated": "2026-08-15",
+      "flags": []
+    },
+    {
+      "id": "carnivore-la-el",
+      "clue": "sarkophagos",
+      "answer": "carnivore",
+      "acceptable": [
+        "carnivore"
+      ],
+      "source": {
+        "language": "Latin"
+      },
+      "target": {
+        "language": "Greek"
+      },
+      "difficulty": 3,
+      "roots": [
+        {
+          "target": "sarko-",
+          "source": "carō, carnis",
+          "meaning": "flesh",
+          "targetCognates": [
+            "sarcasm",
+            "sarcoma",
+            "sarcophagus"
+          ],
+          "sourceCognates": [
+            "carnal",
+            "carnage",
+            "incarnate"
+          ],
+          "sources": [
+            "hand-authored seed — not machine-verified"
+          ]
+        },
+        {
+          "target": "-phagos",
+          "source": "vorāre",
+          "meaning": "to devour",
+          "targetCognates": [
+            "esophagus",
+            "phagocyte",
+            "anthropophagy"
+          ],
+          "sourceCognates": [
+            "voracious",
+            "devour",
+            "omnivore"
+          ],
+          "sources": [
+            "hand-authored seed — not machine-verified"
+          ]
+        }
+      ],
+      "note": "A sarcophagus is a “flesh-eater” — limestone coffins were believed to consume the body.",
+      "generated": "2026-08-15",
+      "flags": [
+        "clue collides with the real English word sarcophagus",
+        "cognate list gives away the collision"
+      ]
+    },
+    {
+      "id": "centipede-la-el",
+      "clue": "hekatopous",
+      "answer": "centipede",
+      "acceptable": [
+        "centipede",
+        "centipedes"
+      ],
+      "source": {
+        "language": "Latin"
+      },
+      "target": {
+        "language": "Greek"
+      },
+      "difficulty": 3,
+      "roots": [
+        {
+          "target": "hekato-",
+          "source": "centum",
+          "meaning": "hundred",
+          "targetCognates": [
+            "hecatomb"
+          ],
+          "sourceCognates": [
+            "century",
+            "percent",
+            "centennial"
+          ],
+          "sources": [
+            "hand-authored seed — not machine-verified"
+          ]
+        },
+        {
+          "target": "-pous",
+          "source": "pēs, pedis",
+          "meaning": "foot",
+          "targetCognates": [
+            "octopus",
+            "podium",
+            "tripod"
+          ],
+          "sourceCognates": [
+            "pedal",
+            "pedestrian",
+            "impede"
+          ],
+          "sources": [
+            "hand-authored seed — not machine-verified"
+          ]
+        }
+      ],
+      "note": "No centipede has a hundred feet; the count is always odd pairs, so 100 is arithmetically impossible.",
+      "generated": "2026-08-15",
+      "flags": [
+        "the one relative for hekato-, hecatomb, is too obscure to help"
+      ]
+    },
+    {
+      "id": "chronometer-el-la",
+      "clue": "temporimensura",
+      "answer": "chronometer",
+      "acceptable": [
+        "chronometer"
+      ],
+      "source": {
+        "language": "Greek"
+      },
+      "target": {
+        "language": "Latin"
+      },
+      "difficulty": 4,
+      "roots": [
+        {
+          "target": "tempori-",
+          "source": "chronos",
+          "meaning": "time",
+          "targetCognates": [
+            "temporal",
+            "tempo",
+            "contemporary"
+          ],
+          "sourceCognates": [
+            "chronology",
+            "anachronism",
+            "synchronize"
+          ],
+          "sources": [
+            "hand-authored seed — not machine-verified"
+          ]
+        },
+        {
+          "target": "-mensura",
+          "source": "metron",
+          "meaning": "measure",
+          "targetCognates": [
+            "measure",
+            "dimension",
+            "commensurate"
+          ],
+          "sourceCognates": [
+            "metric",
+            "symmetry",
+            "perimeter"
+          ],
+          "sources": [
+            "hand-authored seed — not machine-verified"
+          ]
+        }
+      ],
+      "note": "Harrison's marine chronometers solved longitude by keeping London time at sea.",
+      "generated": "2026-08-15",
+      "flags": [
+        "answer is ambiguous: chronograph, chronometry and horologe all fit the gloss"
+      ]
+    },
+    {
+      "id": "somnambulist-la-el",
+      "clue": "hypnobates",
+      "answer": "somnambulist",
+      "acceptable": [
+        "somnambulist",
+        "somnambulism",
+        "sleepwalker"
+      ],
+      "source": {
+        "language": "Latin"
+      },
+      "target": {
+        "language": "Greek"
+      },
+      "difficulty": 4,
+      "roots": [
+        {
+          "target": "hypno-",
+          "source": "somnus",
+          "meaning": "sleep",
+          "targetCognates": [
+            "hypnosis",
+            "hypnotic",
+            "hypnagogic"
+          ],
+          "sourceCognates": [
+            "somnolent",
+            "insomnia",
+            "somniferous"
+          ]
+        },
+        {
+          "target": "-bates",
+          "source": "ambulāre",
+          "meaning": "to walk, to step",
+          "targetCognates": [
+            "acrobat",
+            "diabetes",
+            "batholith"
+          ],
+          "sourceCognates": [
+            "ambulance",
+            "amble",
+            "perambulator"
+          ]
+        }
+      ],
+      "note": "Greek -bates is the walker: an acrobat walks high, a diabetic’s water “walks through.” This one walks asleep."
+    },
+    {
+      "id": "emoji-ja-el",
+      "clue": "eikonogramma",
+      "answer": "emoji",
+      "acceptable": [
+        "emoji",
+        "emojis"
+      ],
+      "source": {
+        "language": "Japanese"
+      },
+      "target": {
+        "language": "Greek"
+      },
+      "difficulty": 3,
+      "roots": [
+        {
+          "target": "eikono-",
+          "source": "e (絵)",
+          "meaning": "picture",
+          "targetCognates": [
+            "icon",
+            "iconoclast",
+            "iconography"
+          ],
+          "sourceCognates": []
+        },
+        {
+          "target": "-gramma",
+          "source": "moji (文字)",
+          "meaning": "written character, letter",
+          "targetCognates": [
+            "grammar",
+            "telegram",
+            "anagram"
+          ],
+          "sourceCognates": []
+        }
+      ],
+      "note": "絵文字 — “picture character.” The resemblance to emotion and emoticon is a complete coincidence, which is how the word survived the crossing."
+    },
+    {
+      "id": "dinosaur-el-la",
+      "clue": "dirolacerta",
+      "answer": "dinosaur",
+      "acceptable": [
+        "dinosaur",
+        "dinosaurs"
+      ],
+      "source": {
+        "language": "Greek"
+      },
+      "target": {
+        "language": "Latin"
+      },
+      "difficulty": 2,
+      "roots": [
+        {
+          "target": "diro-",
+          "source": "deinos",
+          "meaning": "terrible, fearfully great",
+          "targetCognates": [
+            "dire",
+            "direful"
+          ],
+          "sourceCognates": [
+            "deinonychus",
+            "deinotherium"
+          ]
+        },
+        {
+          "target": "-lacerta",
+          "source": "sauros",
+          "meaning": "lizard",
+          "targetCognates": [
+            "lizard",
+            "alligator"
+          ],
+          "sourceCognates": [
+            "tyrannosaurus",
+            "stegosaurus",
+            "sauropod"
+          ]
+        }
+      ],
+      "note": "Richard Owen coined it in 1842. Latin lacerta took the long way into English through French as lizard — and through Spanish el lagarto as alligator."
+    },
+    {
+      "id": "tsunami-ja-la",
+      "clue": "portunda",
+      "answer": "tsunami",
+      "acceptable": [
+        "tsunami",
+        "tsunamis"
+      ],
+      "source": {
+        "language": "Japanese"
+      },
+      "target": {
+        "language": "Latin"
+      },
+      "difficulty": 3,
+      "roots": [
+        {
+          "target": "port-",
+          "source": "tsu (津)",
+          "meaning": "harbour",
+          "targetCognates": [
+            "port",
+            "portal",
+            "opportunity"
+          ],
+          "sourceCognates": []
+        },
+        {
+          "target": "-unda",
+          "source": "nami (波)",
+          "meaning": "wave",
+          "targetCognates": [
+            "undulate",
+            "inundate",
+            "abundant"
+          ],
+          "sourceCognates": []
+        }
+      ],
+      "note": "津波 — “harbour wave,” named for where it is noticed rather than where it is born. Fishermen at sea felt nothing and came home to a wrecked port."
+    },
+    {
+      "id": "orangutan-ms-la",
+      "clue": "hominisilva",
+      "answer": "orangutan",
+      "acceptable": [
+        "orangutan",
+        "orangutans",
+        "orang-utan",
+        "orang utan",
+        "orangutang"
+      ],
+      "source": {
+        "language": "Malay"
+      },
+      "target": {
+        "language": "Latin"
+      },
+      "difficulty": 2,
+      "roots": [
+        {
+          "target": "homini-",
+          "source": "orang",
+          "meaning": "person, human being",
+          "targetCognates": [
+            "homicide",
+            "hominid",
+            "homunculus"
+          ],
+          "sourceCognates": [],
+          "sources": [
+            "https://en.wiktionary.org/wiki/homo#Latin — homō, “a human being, man, person”; English homicide, hominid, homunculus",
+            "https://en.wiktionary.org/wiki/orangutan — Malay orang (“person, man”)"
+          ]
+        },
+        {
+          "target": "-silva",
+          "source": "hutan",
+          "meaning": "forest, wood",
+          "targetCognates": [
+            "sylvan",
+            "silviculture",
+            "Pennsylvania"
+          ],
+          "sourceCognates": [],
+          "sources": [
+            "https://en.wiktionary.org/wiki/silva — silva, “wood, forest”; English sylvan, silviculture, silvics",
+            "https://en.wiktionary.org/wiki/orangutan — Malay hutan (“forest”), orang hutan “forest man”"
+          ]
+        }
+      ],
+      "note": "“Forest person” — but Malay speakers seem not to have called the ape that. The older Malay names are mawas and mayas, and orang hutan may have started as a phrase used to explain the animal to European visitors, who then wrote it down as its name.",
+      "generated": "2026-08-15",
+      "flags": [
+        "Wiktionary flags the animal sense as contested: orang + hutan is certain, but whether the compound was a genuine Malay name for the ape is argued (Old Javanese uraṅutan is cited against the European-invention theory). The roots are safe; the note takes a side and should be read closely."
+      ]
+    },
+    {
+      "id": "maharaja-sa-el",
+      "clue": "megabasileus",
+      "answer": "maharaja",
+      "acceptable": [
+        "maharaja",
+        "maharajah",
+        "maharajas",
+        "maharajahs"
+      ],
+      "source": {
+        "language": "Sanskrit"
+      },
+      "target": {
+        "language": "Greek"
+      },
+      "difficulty": 3,
+      "roots": [
+        {
+          "target": "mega-",
+          "source": "mahā (महा)",
+          "meaning": "great",
+          "targetCognates": [
+            "megalith",
+            "megalomania",
+            "megabyte"
+          ],
+          "sourceCognates": [
+            "mahatma",
+            "mahayana",
+            "maharishi"
+          ],
+          "sources": [
+            "https://en.wiktionary.org/wiki/maharaja — Sanskrit महाराज = महा (mahā, “great”) + राज (rāja, “king”)",
+            "https://en.wiktionary.org/wiki/महात्मन् — महात्मन् = महा (mahā́, “great”) + आत्मन् (ātmán, “soul”)"
+          ]
+        },
+        {
+          "target": "-basileus",
+          "source": "rāja (राजन्, rājan)",
+          "meaning": "king",
+          "targetCognates": [
+            "basilica",
+            "basilisk",
+            "basil"
+          ],
+          "sourceCognates": [
+            "rajah",
+            "raj",
+            "rani"
+          ],
+          "sources": [
+            "https://en.wiktionary.org/wiki/basileus — βασιλεύς, “chief, king”; English basilica, basilisk, basil",
+            "https://en.wiktionary.org/wiki/राजन् — राजन् (rājan), “king, sovereign, prince, chief”; English rajah, raj, rani"
+          ]
+        }
+      ],
+      "note": "Both halves of the clue are the answer's own distant relatives. Sanskrit mahā, Greek megas and Latin magnus all descend from one Indo-European word for “great,” and rājan is the same root as Latin rēx — so raj, regal, royal and rex are all one family.",
+      "generated": "2026-08-15",
+      "flags": [
+        "basil is a legitimate descendant of basileus (the “royal” herb) but it reads as an unrelated kitchen word; the reviewer may prefer to drop it and leave two relatives"
+      ]
+    },
+    {
+      "id": "paradise-ae-la",
+      "clue": "circummurus",
+      "answer": "paradise",
+      "acceptable": [
+        "paradise",
+        "paradises"
+      ],
+      "source": {
+        "language": "Avestan"
+      },
+      "target": {
+        "language": "Latin"
+      },
+      "difficulty": 5,
+      "roots": [
+        {
+          "target": "circum-",
+          "source": "pairi (𐬞𐬀𐬌𐬭𐬌)",
+          "meaning": "around",
+          "targetCognates": [
+            "circumference",
+            "circumnavigate",
+            "circumspect"
+          ],
+          "sourceCognates": [],
+          "sources": [
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Iranian/paridayjah — *pari- (“around”), from PIE *péri",
+            "https://en.wiktionary.org/wiki/paradise — from Ancient Greek παράδεισος, ultimately Proto-Iranian *paridayjah"
+          ]
+        },
+        {
+          "target": "-murus",
+          "source": "daēza (𐬛𐬀𐬉𐬰𐬀)",
+          "meaning": "wall",
+          "targetCognates": [
+            "mural",
+            "immure",
+            "intramural"
+          ],
+          "sourceCognates": [],
+          "sources": [
+            "https://en.wiktionary.org/wiki/Reconstruction:Proto-Iranian/paridayjah — *dáyjah (“wall”); Avestan descendant 𐬞𐬀𐬌𐬭𐬌⸱𐬛𐬀𐬉𐬰𐬀 (pairi.daēza)",
+            "https://en.wiktionary.org/wiki/murus — mūrus, “city wall, fortification”",
+            "https://en.wiktionary.org/wiki/mural — from Latin mūrālis, from mūrus (“wall”)"
+          ]
+        }
+      ],
+      "note": "Heaven began as a fence. Pairi.daēza — “walled around” — named the enclosed hunting parks of Persian kings; Greek took it as parádeisos, the Septuagint translators used that word for the garden of Eden, and a royal game reserve became the afterlife. The pairi is the peri- of perimeter.",
+      "generated": "2026-08-15",
+      "flags": [
+        "source language: Wiktionary reconstructs Proto-Iranian *paridayjah and gives Avestan pairi.daēza as a descendant. “Avestan” is the attested form and the friendlier label, but “Old Iranian” would be the more careful one.",
+        "rule 5 risk: “around” + “wall” also describes circumvallation. The stated source language should rule it out, but worth testing on a live player.",
+        "hardest of the batch by a distance — the answer's own structure is completely invisible in English."
+      ]
+    },
+    {
+      "id": "eucalyptus-el-la",
+      "clue": "benetectus",
+      "answer": "eucalyptus",
+      "acceptable": [
+        "eucalyptus",
+        "eucalypt",
+        "eucalypts"
+      ],
+      "source": {
+        "language": "Greek"
+      },
+      "target": {
+        "language": "Latin"
+      },
+      "difficulty": 4,
+      "roots": [
+        {
+          "target": "bene-",
+          "source": "eu- (εὖ)",
+          "meaning": "well",
+          "targetCognates": [
+            "benefit",
+            "benevolent",
+            "benign"
+          ],
+          "sourceCognates": [
+            "euphoria",
+            "eulogy",
+            "euthanasia"
+          ],
+          "sources": [
+            "https://en.wiktionary.org/wiki/eucalyptus — New Latin, from Ancient Greek εὖ (eû, “well”) + καλυπτός (kaluptós, “covered”)",
+            "https://en.wiktionary.org/wiki/bene#Latin — bene, “well”; English benefit, benevolent, benign"
+          ]
+        },
+        {
+          "target": "-tectus",
+          "source": "-kalyptos (καλυπτός)",
+          "meaning": "covered",
+          "targetCognates": [
+            "protect",
+            "detect",
+            "integument"
+          ],
+          "sourceCognates": [
+            "apocalypse"
+          ],
+          "sources": [
+            "https://en.wiktionary.org/wiki/tego#Latin — tegō, “I cover”, participle tēctus; English protect, detect, integument, toga",
+            "https://en.wiktionary.org/wiki/καλύπτω — καλύπτω, “I cover, conceal”; English apocalypse (“an uncovering”)"
+          ]
+        }
+      ],
+      "note": "“Well-covered” is a description of the flower bud, not the tree: a lid called an operculum caps it and pops off when the flower opens. The same root, negated, gives apocalypse — an uncovering, a lid coming off. The revelation and the gum tree are the same word with the cap on or off.",
+      "generated": "2026-08-15",
+      "flags": [
+        "the gloss “well” + “covered” gives no hint that the answer is a tree, which is either the best or the worst thing about this one — play it before scheduling",
+        "kalyptos leaves apocalypse and essentially nothing else, so the last hint is a single word. It is a strong single word.",
+        "strictly New Latin coined from Greek elements (L'Héritier, 1789), so the “source: Greek” label rests on the same ruling as megaphone and photograph"
+      ]
+    }
+  ]
+}

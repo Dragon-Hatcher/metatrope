@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Metatrope</title>
+<meta name="description" content="A daily word game. A compound word has been taken apart, translated root by root, and put back together. Name the original.">
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#faf8f4" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#14130f" media="(prefers-color-scheme: dark)">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%94%A4%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="topbar">
+  <button class="icon-btn" id="btn-help" aria-label="How to play" title="How to play">?</button>
+  <h1 class="wordmark">Metatrope</h1>
+  <button class="icon-btn" id="btn-stats" aria-label="Statistics" title="Statistics">
+    <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+      <path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/>
+    </svg>
+  </button>
+</header>
+
+<main id="game" hidden>
+
+  <div class="puzzle-meta">
+    <span id="puzzle-number"></span>
+    <span class="dot">·</span>
+    <span id="puzzle-date"></span>
+    <span class="preview-badge" id="preview-badge" hidden>preview</span>
+  </div>
+
+  <section class="clue-block">
+    <p class="direction" id="direction" aria-live="polite">
+      <span class="lang-unknown">?</span>
+      <span class="arrow">&rarr;</span>
+      <span class="lang-unknown">?</span>
+    </p>
+    <p class="clue" id="clue"></p>
+  </section>
+
+  <section class="guess-block" id="guess-block">
+    <form id="guess-form" autocomplete="off">
+      <input id="guess-input" type="text" inputmode="text" autocapitalize="off"
+             autocorrect="off" spellcheck="false" placeholder="the original English word"
+             aria-label="Your guess">
+      <button type="submit" id="guess-submit">Guess</button>
+    </form>
+    <p class="feedback" id="feedback" role="status" aria-live="polite"></p>
+    <ul class="guesses" id="guesses"></ul>
+  </section>
+
+  <section class="hints" id="hints">
+    <div class="hints-head">
+      <h2>Hints</h2>
+      <span id="hints-count">0 of 6 used</span>
+    </div>
+    <div class="tiers" id="hint-tiers"></div>
+  </section>
+
+  <section class="solved" id="solved" hidden>
+    <p class="solved-kicker" id="solved-kicker">Solved</p>
+    <p class="solved-answer" id="solved-answer"></p>
+    <div class="breakdown" id="breakdown"></div>
+    <p class="note" id="note"></p>
+    <div class="solved-actions">
+      <button class="primary" id="btn-share">Share</button>
+    </div>
+    <p class="share-status" id="share-status" role="status" aria-live="polite"></p>
+    <div class="countdown">
+      <span>Next puzzle in</span>
+      <strong id="countdown">--:--:--</strong>
+    </div>
+  </section>
+
+</main>
+
+<p id="loading" class="loading">Loading&hellip;</p>
+
+<footer class="footer">
+  <button class="link-btn" id="btn-help-2">How to play</button>
+</footer>
+
+<!-- ── modals ─────────────────────────────────────────────── -->
+
+<div class="modal" id="modal-help" hidden>
+  <div class="modal-card" tabindex="-1" role="dialog" aria-modal="true" aria-labelledby="help-title">
+    <button class="modal-close" data-close aria-label="Close">&times;</button>
+    <h2 id="help-title">How to play</h2>
+
+    <p>English is full of compound words whose two halves were borrowed whole from
+       another language. <strong>Metatrope</strong> takes such a word, splits it,
+       translates each half into a <em>different</em> language, and glues it back
+       together.</p>
+
+    <p class="tut-lead">Your job is to name the original. Take the game's own name:</p>
+
+    <div class="tut">
+      <p class="tut-clue">metatrope</p>
+      <div class="tut-row"><span class="tut-k">The languages</span><span class="tut-v">Latin &rarr; Greek</span></div>
+      <div class="tut-row"><span class="tut-k">The split</span><span class="tut-v">meta &middot; trope</span></div>
+      <div class="tut-row"><span class="tut-k">meta&#8209;</span><span class="tut-v">Greek for <em>across</em> — as in <b>meta</b>phor</span></div>
+      <div class="tut-row"><span class="tut-k">&#8209;trope</span><span class="tut-v">Greek for <em>turn, change</em> — as in helio<b>trope</b></span></div>
+      <div class="tut-row tut-solve"><span class="tut-k">So the English word</span><span class="tut-v">is built from Latin for <em>across</em> + <em>change</em>&hellip;</span></div>
+      <p class="tut-answer"><b>transmute</b> &nbsp;<span>(Latin trans&nbsp;+&nbsp;m&#363;t&#257;re)</span></p>
+    </div>
+
+    <h3>Hints</h3>
+    <p>Four levels, each opened by the one above it, giving away a little more
+       each time. Fewer is better, but there is no penalty beyond your own pride
+       — and the share card.</p>
+    <ul class="help-list">
+      <li><b>The coinage</b> — the two <b>languages</b>, and the <b>split</b> showing
+          where the seam between the roots falls. Both open from the start.</li>
+      <li><b>Clue relatives</b> — other English words built on the root <em>as it
+          appears in the clue</em>. <b>charta</b> gives you cartography and charter,
+          which is how you work out that it means paper.</li>
+      <li><b>Meanings</b> — what the root actually means, said plainly.</li>
+      <li><b>Answer relatives</b> — other English words built on the root <em>in the
+          original language</em>. This is the last resort: for a clue meaning
+          <em>horse&nbsp;+&nbsp;river</em>, being handed hippodrome and hippocampus
+          leaves very little to guess.</li>
+    </ul>
+    <p>The two columns are the two roots, so you can dig into whichever half has
+       you stuck without paying for the other. Some roots came into English alone
+       and left no cousins behind — those puzzles simply have fewer hints.</p>
+
+    <h3>Guessing</h3>
+    <p>Guess as often as you like. Wrong guesses cost nothing but the count on
+       your share card.</p>
+
+    <p class="help-foot">New puzzle every day at midnight, your time.</p>
+  </div>
+</div>
+
+<div class="modal" id="modal-stats" hidden>
+  <div class="modal-card" tabindex="-1" role="dialog" aria-modal="true" aria-labelledby="stats-title">
+    <button class="modal-close" data-close aria-label="Close">&times;</button>
+    <h2 id="stats-title">Statistics</h2>
+    <div class="stat-row" id="stat-row"></div>
+    <h3>Hints used</h3>
+    <div class="dist" id="dist"></div>
+  </div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>

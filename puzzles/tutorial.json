@@ -1,0 +1,54 @@
+{
+  "id": "tutorial-metatrope",
+  "clue": "metatrope",
+  "answer": "transmute",
+  "acceptable": [
+    "transmute",
+    "transmutation"
+  ],
+  "source": {
+    "language": "Latin"
+  },
+  "target": {
+    "language": "Greek"
+  },
+  "roots": [
+    {
+      "target": "meta-",
+      "source": "trans-",
+      "meaning": "across, over",
+      "targetCognates": [
+        "metaphor",
+        "metabolism",
+        "metastasis"
+      ],
+      "sourceCognates": [
+        "transit",
+        "transfer",
+        "transatlantic"
+      ],
+      "sources": [
+        "hand-authored — the game's own name"
+      ]
+    },
+    {
+      "target": "-trope",
+      "source": "-mūtāre",
+      "meaning": "to turn, to change",
+      "targetCognates": [
+        "heliotrope",
+        "tropic",
+        "entropy"
+      ],
+      "sourceCognates": [
+        "mutate",
+        "commute",
+        "permutation"
+      ],
+      "sources": [
+        "hand-authored — the game's own name"
+      ]
+    }
+  ],
+  "note": "The game is named after its own tutorial. Greek μετατροπή is a real word, and it means exactly what transmute means: a turning-across, a conversion."
+}

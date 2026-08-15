@@ -1,0 +1,164 @@
+{
+  "schema": 1,
+  "puzzles": [
+    {
+      "id": "helicopter-el-la",
+      "clue": "spiripenna",
+      "answer": "helicopter",
+      "acceptable": [
+        "helicopter",
+        "helicopters",
+        "chopper"
+      ],
+      "source": {
+        "language": "Greek"
+      },
+      "target": {
+        "language": "Latin"
+      },
+      "difficulty": 3,
+      "roots": [
+        {
+          "target": "spiri-",
+          "source": "helix, heliko-",
+          "meaning": "spiral, coil",
+          "targetCognates": [
+            "spiral",
+            "spire",
+            "spirochete"
+          ],
+          "sourceCognates": [
+            "helix",
+            "helical",
+            "helicoid"
+          ]
+        },
+        {
+          "target": "-penna",
+          "source": "pteron",
+          "meaning": "wing",
+          "targetCognates": [
+            "pen",
+            "pennant",
+            "pinnate"
+          ],
+          "sourceCognates": [
+            "pterodactyl",
+            "archaeopteryx",
+            "coleoptera"
+          ]
+        }
+      ],
+      "note": "The seam is in the wrong place: it is helico + pter, not heli + copter. Every helipad and chopper in English is built on a mis-split."
+    },
+    {
+      "id": "vivisection-la-el",
+      "clue": "biotomia",
+      "answer": "vivisection",
+      "acceptable": [
+        "vivisection",
+        "vivisect"
+      ],
+      "source": {
+        "language": "Latin"
+      },
+      "target": {
+        "language": "Greek"
+      },
+      "difficulty": 3,
+      "roots": [
+        {
+          "target": "bio-",
+          "source": "vivus",
+          "meaning": "alive, living",
+          "targetCognates": [
+            "biology",
+            "biography",
+            "antibiotic"
+          ],
+          "sourceCognates": [
+            "vivid",
+            "revive",
+            "vivacious"
+          ],
+          "sources": [
+            "https://en.wiktionary.org/wiki/vivisection — Latin vīvus (“alive”) + sectiō (“a cutting”)",
+            "https://en.wiktionary.org/wiki/βίος — βίος, “life”; English biology, biography, antibiotic"
+          ]
+        },
+        {
+          "target": "-tomia",
+          "source": "sectiō (secāre)",
+          "meaning": "a cutting",
+          "targetCognates": [
+            "anatomy",
+            "appendectomy",
+            "epitome"
+          ],
+          "sourceCognates": [
+            "section",
+            "dissect",
+            "insect"
+          ],
+          "sources": [
+            "https://en.wiktionary.org/wiki/τομή — τομή, “a cutting”, from τέμνω; English anatomy, appendectomy, epitome, atom (“uncuttable”)",
+            "https://en.wiktionary.org/wiki/seco#Latin — secō, “I cut”, noun sectiō; English section, dissect, insect"
+          ]
+        }
+      ],
+      "note": "Both halves of the clue are hiding in plain sight elsewhere. An insect is a thing “cut into” — the segments — and that Latin name is a word-for-word translation of the Greek entomon, which is why we study them under entomology. Two languages, one observation, and English kept both.",
+      "generated": "2026-08-15",
+      "flags": [
+        "eight letters and bio- is transparent, so this may play easier than a 3"
+      ]
+    },
+    {
+      "id": "hippopotamus-el-la",
+      "clue": "equoflumen",
+      "answer": "hippopotamus",
+      "acceptable": [
+        "hippopotamus",
+        "hippopotamuses",
+        "hippo"
+      ],
+      "source": {
+        "language": "Greek"
+      },
+      "target": {
+        "language": "Latin"
+      },
+      "difficulty": 1,
+      "roots": [
+        {
+          "target": "equo-",
+          "source": "hippos",
+          "meaning": "horse",
+          "targetCognates": [
+            "equestrian",
+            "equine",
+            "equitation"
+          ],
+          "sourceCognates": [
+            "hippodrome",
+            "hippocampus",
+            "Philip"
+          ]
+        },
+        {
+          "target": "-flumen",
+          "source": "potamos",
+          "meaning": "river",
+          "targetCognates": [
+            "fluent",
+            "affluent",
+            "influence"
+          ],
+          "sourceCognates": [
+            "Mesopotamia"
+          ]
+        }
+      ],
+      "note": "The Greeks called it the “horse of the river.” Latin would have said equus + flumen — and English kept the Greek."
+    }
+  ]
+}

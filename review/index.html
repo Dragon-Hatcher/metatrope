@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Metatrope — review desk</title>
+<meta name="color-scheme" content="light dark">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%97%82%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="review.css">
+</head>
+<body>
+
+<header class="bar">
+  <h1>Metatrope <span>review desk</span></h1>
+  <div class="bar-stats" id="bar-stats"></div>
+  <div class="bar-actions">
+    <a class="btn ghost" href="/play" target="_blank" rel="noopener">Open game ↗</a>
+    <button class="btn" id="btn-save" disabled>Saved</button>
+  </div>
+</header>
+
+<main>
+  <section class="pane">
+    <div class="pane-head">
+      <h2>Candidates</h2>
+      <span id="count-candidates"></span>
+    </div>
+    <div id="candidates" class="cards"></div>
+    <p class="empty" id="empty-candidates" hidden>
+      Nothing waiting. Generate more with <code>/metatrope-puzzles</code>.
+    </p>
+  </section>
+
+  <section class="pane">
+    <div class="pane-head">
+      <h2>Schedule</h2>
+      <span id="count-published"></span>
+    </div>
+    <div id="schedule" class="rows"></div>
+
+    <div class="pane-head sub">
+      <h2>Rejected</h2>
+      <span id="count-rejected"></span>
+    </div>
+    <div id="rejected" class="rows muted"></div>
+  </section>
+</main>
+
+<p class="loading" id="loading">Loading pools…</p>
+<div class="toast" id="toast" hidden></div>
+
+<script type="module" src="review.js"></script>
+</body>
+</html>

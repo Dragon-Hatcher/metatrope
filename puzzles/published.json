@@ -1,0 +1,973 @@
+{
+  "schema": 1,
+  "puzzles": [
+    {
+      "id": "philosophy-el-la",
+      "clue": "amorsapientia",
+      "answer": "philosophy",
+      "acceptable": [
+        "philosophy"
+      ],
+      "source": {
+        "language": "Greek"
+      },
+      "target": {
+        "language": "Latin"
+      },
+      "difficulty": 2,
+      "roots": [
+        {
+          "target": "amor-",
+          "source": "philos",
+          "meaning": "love, loving",
+          "targetCognates": [
+            "amorous",
+            "enamored",
+            "amateur"
+          ],
+          "sourceCognates": [
+            "philanthropy"
+          ],
+          "sources": [
+            "hand-authored seed — not machine-verified"
+          ]
+        },
+        {
+          "target": "-sapientia",
+          "source": "sophia",
+          "meaning": "wisdom",
+          "targetCognates": [
+            "sapient",
+            "savant",
+            "insipid"
+          ],
+          "sourceCognates": [
+            "sophisticated",
+            "sophomore"
+          ],
+          "sources": [
+            "hand-authored seed — not machine-verified"
+          ]
+        }
+      ],
+      "note": "Cicero calqued it himself: he rendered philosophia as studium sapientiae.",
+      "generated": "2026-08-15",
+      "date": "2026-08-15"
+    },
+    {
+      "id": "telephone-el-la",
+      "clue": "longivox",
+      "answer": "telephone",
+      "acceptable": [
+        "telephone",
+        "phone"
+      ],
+      "source": {
+        "language": "Greek"
+      },
+      "target": {
+        "language": "Latin"
+      },
+      "difficulty": 2,
+      "roots": [
+        {
+          "target": "longi-",
+          "source": "tēle",
+          "meaning": "far off",
+          "targetCognates": [
+            "longitude",
+            "elongate",
+            "oblong"
+          ],
+          "sourceCognates": [
+            "telescope",
+            "telegram",
+            "telepathy"
+          ]
+        },
+        {
+          "target": "-vox",
+          "source": "phōnē",
+          "meaning": "voice, sound",
+          "targetCognates": [
+            "vocal",
+            "vociferous",
+            "evoke"
+          ],
+          "sourceCognates": [
+            "phonetic",
+            "symphony",
+            "megaphone"
+          ]
+        }
+      ],
+      "note": "Every tele- word is a Greek “far”: far-voice, far-writing, far-seeing. Latin would have reached for longus, and the Victorians nearly did.",
+      "date": "2026-08-16"
+    },
+    {
+      "id": "rhinoceros-el-la",
+      "clue": "nasicornu",
+      "answer": "rhinoceros",
+      "acceptable": [
+        "rhinoceros",
+        "rhino",
+        "rhinoceroses"
+      ],
+      "source": {
+        "language": "Greek"
+      },
+      "target": {
+        "language": "Latin"
+      },
+      "difficulty": 2,
+      "roots": [
+        {
+          "target": "nasi-",
+          "source": "rhis, rhino-",
+          "meaning": "nose",
+          "targetCognates": [
+            "nasal",
+            "nasalize",
+            "nares"
+          ],
+          "sourceCognates": [
+            "rhinoplasty",
+            "rhinitis",
+            "rhinovirus"
+          ],
+          "sources": [
+            "hand-authored seed — not machine-verified"
+          ]
+        },
+        {
+          "target": "-cornu",
+          "source": "keras",
+          "meaning": "horn",
+          "targetCognates": [
+            "unicorn",
+            "cornet",
+            "cornucopia"
+          ],
+          "sourceCognates": [
+            "keratin",
+            "triceratops",
+            "keratosis"
+          ],
+          "sources": [
+            "hand-authored seed — not machine-verified"
+          ]
+        }
+      ],
+      "note": "“Nose-horn,” which is about as literal as zoology gets.",
+      "generated": "2026-08-15",
+      "date": "2026-08-17"
+    },
+    {
+      "id": "origami-ja-la",
+      "clue": "plicocharta",
+      "answer": "origami",
+      "acceptable": [
+        "origami"
+      ],
+      "source": {
+        "language": "Japanese"
+      },
+      "target": {
+        "language": "Latin"
+      },
+      "difficulty": 2,
+      "roots": [
+        {
+          "target": "plico-",
+          "source": "ori (折り)",
+          "meaning": "fold",
+          "targetCognates": [
+            "duplicate",
+            "complicate",
+            "replica"
+          ],
+          "sourceCognates": []
+        },
+        {
+          "target": "-charta",
+          "source": "gami (紙, kami)",
+          "meaning": "paper",
+          "targetCognates": [
+            "cartography",
+            "charter",
+            "cartoon"
+          ],
+          "sourceCognates": []
+        }
+      ],
+      "note": "折り紙 — literally “folding paper.” The k of kami softens to g inside the compound, which is why the seam is invisible in English.",
+      "date": "2026-08-18"
+    },
+    {
+      "id": "megaphone-el-la",
+      "clue": "magnisonus",
+      "answer": "megaphone",
+      "acceptable": [
+        "megaphone",
+        "megaphones"
+      ],
+      "source": {
+        "language": "Greek"
+      },
+      "target": {
+        "language": "Latin"
+      },
+      "difficulty": 2,
+      "roots": [
+        {
+          "target": "magni-",
+          "source": "mega- (μέγας, mégas)",
+          "meaning": "great, large",
+          "targetCognates": [
+            "magnify",
+            "magnitude",
+            "magnate"
+          ],
+          "sourceCognates": [
+            "megalith",
+            "megalomania",
+            "megabyte"
+          ],
+          "sources": [
+            "https://en.wiktionary.org/wiki/magnus#Latin — magnus, “great, large, big”; cognate with Ancient Greek μέγας",
+            "https://en.wiktionary.org/wiki/megaphone — from mega- (“great”, from Greek μέγας) + -phone"
+          ]
+        },
+        {
+          "target": "-sonus",
+          "source": "-phone (φωνή, phōnḗ)",
+          "meaning": "sound, voice",
+          "targetCognates": [
+            "sonic",
+            "resonate",
+            "unison"
+          ],
+          "sourceCognates": [
+            "symphony",
+            "cacophony",
+            "phonetics"
+          ],
+          "sources": [
+            "https://en.wiktionary.org/wiki/sonus — sonus, “sound, noise; voice”",
+            "https://en.wiktionary.org/wiki/megaphone — -phone, “sound, voice”, from Greek φωνή"
+          ]
+        }
+      ],
+      "note": "Latin sonus is not just a translation of -phone, it is the ancestor of the English word sound: sonus → Old French son → Middle English sownde. The clue's second half is the answer's second half in an older coat.",
+      "generated": "2026-08-15",
+      "date": "2026-08-19"
+    },
+    {
+      "id": "solstice-la-el",
+      "clue": "heliostasis",
+      "answer": "solstice",
+      "acceptable": [
+        "solstice",
+        "solstices"
+      ],
+      "source": {
+        "language": "Latin"
+      },
+      "target": {
+        "language": "Greek"
+      },
+      "difficulty": 3,
+      "roots": [
+        {
+          "target": "helio-",
+          "source": "sōl",
+          "meaning": "sun",
+          "targetCognates": [
+            "heliotrope",
+            "heliocentric",
+            "perihelion"
+          ],
+          "sourceCognates": [
+            "solar",
+            "parasol",
+            "solarium"
+          ],
+          "sources": [
+            "https://en.wiktionary.org/wiki/ἥλιος — ἥλιος (hḗlios), “sun”; English heliotrope, heliocentric, perihelion",
+            "https://en.wiktionary.org/wiki/solstice — Latin sōlstitium, from sōl (“sun”)"
+          ]
+        },
+        {
+          "target": "-stasis",
+          "source": "-stitium (sistō)",
+          "meaning": "a standing still, a halt",
+          "targetCognates": [
+            "homeostasis",
+            "static",
+            "ecstasy"
+          ],
+          "sourceCognates": [
+            "armistice",
+            "interstice",
+            "insist"
+          ],
+          "sources": [
+            "https://en.wiktionary.org/wiki/ἵστημι — ἵστημι “to stand, to halt”; noun στάσις “a standing”, English stasis, static, ecstasy",
+            "https://en.wiktionary.org/wiki/sisto#Latin — sistō, “to cause to stand; to halt”; English derivatives assist, resist, armistice, solstice"
+          ]
+        }
+      ],
+      "note": "For a few days each June and December the sun's noon height changes too little for the eye to catch, so Rome called it the sun standing still. The same -stitium hides inside armistice — arms standing still. Greek στάσις and Latin sistō are the same Indo-European root, so the clue is the answer rebuilt from its own cousins.",
+      "generated": "2026-08-15",
+      "date": "2026-08-20"
+    },
+    {
+      "id": "karate-ja-la",
+      "clue": "vacuimanus",
+      "answer": "karate",
+      "acceptable": [
+        "karate"
+      ],
+      "source": {
+        "language": "Japanese"
+      },
+      "target": {
+        "language": "Latin"
+      },
+      "difficulty": 2,
+      "roots": [
+        {
+          "target": "vacui-",
+          "source": "kara (空)",
+          "meaning": "empty",
+          "targetCognates": [
+            "vacuum",
+            "vacant",
+            "evacuate"
+          ],
+          "sourceCognates": [
+            "karaoke"
+          ],
+          "sources": [
+            "https://en.wiktionary.org/wiki/vacuus — vacuus, “empty, vacant, unoccupied”; English vacuous, vacuum",
+            "https://en.wiktionary.org/wiki/karate — 空手 = 空 (kara, “empty”) + 手 (te, “hand”)",
+            "https://en.wiktionary.org/wiki/karaoke — カラオケ = 空 (kara, “empty”) + オケ, clipped from “orchestra”"
+          ]
+        },
+        {
+          "target": "-manus",
+          "source": "te (手)",
+          "meaning": "hand",
+          "targetCognates": [
+            "manual",
+            "manicure",
+            "manacle"
+          ],
+          "sourceCognates": [],
+          "sources": [
+            "https://en.wiktionary.org/wiki/manus#Latin — manus, “hand”; English manual, manuscript, manicure",
+            "https://en.wiktionary.org/wiki/karate — 手 (te, “hand”)"
+          ]
+        }
+      ],
+      "note": "It was 唐手 first — “Tang hand,” meaning Chinese hand. In the 1930s the first character was swapped for its homophone 空, “empty,” which cut the art loose from China without changing how anyone said it. That 空 is the kara of karaoke: an empty orchestra.",
+      "generated": "2026-08-15",
+      "date": "2026-08-21"
+    },
+    {
+      "id": "necropolis-el-la",
+      "clue": "morturbs",
+      "answer": "necropolis",
+      "acceptable": [
+        "necropolis",
+        "necropolises",
+        "necropoleis"
+      ],
+      "source": {
+        "language": "Greek"
+      },
+      "target": {
+        "language": "Latin"
+      },
+      "difficulty": 2,
+      "roots": [
+        {
+          "target": "mort-",
+          "source": "nekros (νεκρός)",
+          "meaning": "dead, corpse",
+          "targetCognates": [
+            "mortal",
+            "mortuary",
+            "mortify"
+          ],
+          "sourceCognates": [
+            "necromancy",
+            "necrosis",
+            "necrotic"
+          ],
+          "sources": [
+            "https://en.wiktionary.org/wiki/necropolis — Ancient Greek νεκρόπολις = νεκρός (nekrós, “dead body, corpse”) + πόλις (pólis, “city”)",
+            "https://en.wiktionary.org/wiki/mors#Latin — mors, mortis, “death”; English mortal, mortuary, mortify"
+          ]
+        },
+        {
+          "target": "-urbs",
+          "source": "polis (πόλις)",
+          "meaning": "city",
+          "targetCognates": [
+            "urban",
+            "suburb",
+            "urbane"
+          ],
+          "sourceCognates": [
+            "metropolis",
+            "acropolis",
+            "cosmopolitan"
+          ],
+          "sources": [
+            "https://en.wiktionary.org/wiki/urbs — urbs, “city, walled town”; English urban, suburb, urbane",
+            "https://en.wiktionary.org/wiki/polis — πόλις, “city, city-state”; English metropolis, acropolis, politics"
+          ]
+        }
+      ],
+      "note": "nekros is the corpse, not death in the abstract — which is why necrosis is tissue dying and necromancy is not magic in general but divination by questioning the dead. The linking vowel drops before urbs, the same way it does in portunda.",
+      "generated": "2026-08-15",
+      "date": "2026-08-22"
+    },
+    {
+      "id": "democracy-el-la",
+      "clue": "populiregnum",
+      "answer": "democracy",
+      "acceptable": [
+        "democracy",
+        "democracies"
+      ],
+      "source": {
+        "language": "Greek"
+      },
+      "target": {
+        "language": "Latin"
+      },
+      "difficulty": 2,
+      "roots": [
+        {
+          "target": "populi-",
+          "source": "demos (δῆμος)",
+          "meaning": "the people, the commons",
+          "targetCognates": [
+            "popular",
+            "population",
+            "populace"
+          ],
+          "sourceCognates": [
+            "demographic",
+            "epidemic",
+            "endemic"
+          ],
+          "sources": [
+            "https://en.wiktionary.org/wiki/democracy — Ancient Greek δημοκρατία = δῆμος (dêmos, “people”) + κράτος (krátos, “power, rule”)",
+            "https://en.wiktionary.org/wiki/populus#Latin — populus, “a people, the public”; English popular, population, populace"
+          ]
+        },
+        {
+          "target": "-regnum",
+          "source": "kratos (κράτος)",
+          "meaning": "power, rule",
+          "targetCognates": [
+            "reign",
+            "regnant",
+            "interregnum"
+          ],
+          "sourceCognates": [
+            "autocrat",
+            "aristocracy",
+            "bureaucracy"
+          ],
+          "sources": [
+            "https://en.wiktionary.org/wiki/regnum — regnum, “kingship, rule, dominion”; English reign, regnant, interregnum",
+            "https://en.wiktionary.org/wiki/κράτος — κράτος, “strength, might, power, rule”; English autocrat, aristocracy, bureaucracy"
+          ]
+        }
+      ],
+      "note": "kratos is brute strength, not office — which is the difference between the two families of English political words. A -cracy says who holds the power; an -archy (monarchy, oligarchy) says who holds the office. And demos was also the deme, the local district: Athenian citizenship ran through the parish you were registered in.",
+      "generated": "2026-08-15",
+      "date": "2026-08-23"
+    },
+    {
+      "id": "microscope-el-la",
+      "clue": "minuspicium",
+      "answer": "microscope",
+      "acceptable": [
+        "microscope",
+        "microscopes"
+      ],
+      "source": {
+        "language": "Greek"
+      },
+      "target": {
+        "language": "Latin"
+      },
+      "difficulty": 2,
+      "roots": [
+        {
+          "target": "minu-",
+          "source": "mikros (μικρός)",
+          "meaning": "small",
+          "targetCognates": [
+            "minute",
+            "diminish",
+            "minimum"
+          ],
+          "sourceCognates": [
+            "microbe",
+            "microcosm",
+            "micrometer"
+          ],
+          "sources": [
+            "https://en.wiktionary.org/wiki/microscope — from Greek μικρός (mikrós, “small”) + σκοπέω (skopéō, “to look at”)",
+            "https://en.wiktionary.org/wiki/minuo#Latin — minuō, “to make smaller, lessen”; English minute, diminish, minimum"
+          ]
+        },
+        {
+          "target": "-spicium",
+          "source": "-skopion (σκοπέω)",
+          "meaning": "to look at, to watch",
+          "targetCognates": [
+            "inspect",
+            "conspicuous",
+            "auspices"
+          ],
+          "sourceCognates": [
+            "telescope",
+            "periscope",
+            "stethoscope"
+          ],
+          "sources": [
+            "https://en.wiktionary.org/wiki/specio#Latin — speciō/spiciō, “to observe, watch, look at”; combining form -spiciō in auspicium, cōnspiciō, īnspiciō",
+            "https://en.wiktionary.org/wiki/σκοπέω — σκοπέω, “to look at, examine”; English telescope, periscope, stethoscope"
+          ]
+        }
+      ],
+      "note": "Both halves of the clue hide a surprise. Auspices is bird-watching — avis plus this same root — because a Roman magistrate read the omens in birds before acting, so doing anything “under the auspices of” someone once meant they had checked the sky first. And the Greek half, epi-skopos, “the one who watches over,” came through Latin into English as bishop.",
+      "generated": "2026-08-15",
+      "date": "2026-08-24"
+    },
+    {
+      "id": "palindrome-el-la",
+      "clue": "retrocursus",
+      "answer": "palindrome",
+      "acceptable": [
+        "palindrome",
+        "palindromes",
+        "palindromic"
+      ],
+      "source": {
+        "language": "Greek"
+      },
+      "target": {
+        "language": "Latin"
+      },
+      "difficulty": 4,
+      "roots": [
+        {
+          "target": "retro-",
+          "source": "palin (πάλιν)",
+          "meaning": "back, again",
+          "targetCognates": [
+            "retrograde",
+            "retrospect",
+            "retroactive"
+          ],
+          "sourceCognates": [
+            "palimpsest",
+            "palingenesis",
+            "palinode"
+          ],
+          "sources": [
+            "https://en.wiktionary.org/wiki/palindrome — Ancient Greek παλίνδρομος = πάλιν (pálin, “back, again”) + δρόμος (drómos, “running, race, course”)",
+            "https://en.wiktionary.org/wiki/retro-#Latin — retrō, “backwards, behind”; English retrograde, retrospect, retroactive"
+          ]
+        },
+        {
+          "target": "-cursus",
+          "source": "dromos (δρόμος)",
+          "meaning": "a running, a course",
+          "targetCognates": [
+            "cursive",
+            "excursion",
+            "precursor"
+          ],
+          "sourceCognates": [
+            "hippodrome",
+            "velodrome",
+            "dromedary"
+          ],
+          "sources": [
+            "https://en.wiktionary.org/wiki/cursus#Latin — cursus, “a running, course”, from currō; English cursive, excursion, precursor",
+            "https://en.wiktionary.org/wiki/palindrome — δρόμος, “running, race, racecourse”; English velodrome, syndrome, hippodrome, aerodrome"
+          ]
+        }
+      ],
+      "note": "The relatives tell the story better than the word does. A palimpsest is “scraped again” — a manuscript washed down and written over, which is why lost texts keep surfacing under later ones. A dromedary is the running camel, bred for speed rather than load. Put the two ideas together and you have something that runs back over itself.",
+      "generated": "2026-08-15",
+      "date": "2026-08-25"
+    },
+    {
+      "id": "omnipotent-la-el",
+      "clue": "pantodynamos",
+      "answer": "omnipotent",
+      "acceptable": [
+        "omnipotent",
+        "omnipotence",
+        "omnipotency"
+      ],
+      "source": {
+        "language": "Latin"
+      },
+      "target": {
+        "language": "Greek"
+      },
+      "difficulty": 3,
+      "roots": [
+        {
+          "target": "panto-",
+          "source": "omnis",
+          "meaning": "all, every",
+          "targetCognates": [
+            "pantomime",
+            "panorama",
+            "pandemic"
+          ],
+          "sourceCognates": [
+            "omniscient",
+            "omnibus",
+            "omnivore"
+          ],
+          "sources": [
+            "https://en.wiktionary.org/wiki/omnipotent — Latin omnipotēns = omnis (“all”) + potēns (“powerful”)",
+            "https://en.wiktionary.org/wiki/πᾶς — πᾶς, παντός, “all, every”; combining form παντο-, English pantomime, panorama"
+          ]
+        },
+        {
+          "target": "-dynamos",
+          "source": "potens (posse)",
+          "meaning": "powerful, able",
+          "targetCognates": [
+            "dynamic",
+            "dynasty",
+            "dynamite"
+          ],
+          "sourceCognates": [
+            "potential",
+            "potentate",
+            "impotent"
+          ],
+          "sources": [
+            "https://en.wiktionary.org/wiki/δύναμις — δύναμις, “power, might, ability”; English dynamic, dynasty, dynamite",
+            "https://en.wiktionary.org/wiki/potens#Latin — potēns, “powerful, able”, present participle of possum; English potential, potentate, impotent"
+          ]
+        }
+      ],
+      "note": "This coinage undoes a real translation, made in the fourth century and still recited. The Greek creed calls God pantokrator, “all-ruler”; the Latin renders it omnipotentem, “all-powerful” — Rome swapped rule for power, and English inherited the Latin half. Every Byzantine dome with a Christ Pantokrator in it is captioned in the word this puzzle did not use.",
+      "generated": "2026-08-15",
+      "date": "2026-08-26"
+    },
+    {
+      "id": "legislator-la-el",
+      "clue": "nomothetes",
+      "answer": "legislator",
+      "acceptable": [
+        "legislator",
+        "legislators"
+      ],
+      "source": {
+        "language": "Latin"
+      },
+      "target": {
+        "language": "Greek"
+      },
+      "difficulty": 4,
+      "roots": [
+        {
+          "target": "nomo-",
+          "source": "lex, legis",
+          "meaning": "law",
+          "targetCognates": [
+            "autonomy",
+            "economy",
+            "astronomy"
+          ],
+          "sourceCognates": [
+            "legal",
+            "legitimate",
+            "privilege"
+          ],
+          "sources": [
+            "https://en.wiktionary.org/wiki/νόμος — νόμος, “law, custom”; English autonomy, economy, astronomy",
+            "https://en.wiktionary.org/wiki/legislator#Latin — lēgislātor, from lēx, lēgis (“law”) + lātor (“proposer, bearer”)"
+          ]
+        },
+        {
+          "target": "-thetes",
+          "source": "-lator (ferre, lātus)",
+          "meaning": "one who sets down, one who brings",
+          "targetCognates": [
+            "thesis",
+            "synthesis",
+            "epithet"
+          ],
+          "sourceCognates": [
+            "translate",
+            "relate",
+            "collate"
+          ],
+          "sources": [
+            "https://en.wiktionary.org/wiki/τίθημι — τίθημι, “to put, place, set down”; agent noun -θέτης, English thesis, synthesis, epithet",
+            "https://en.wiktionary.org/wiki/lator#Latin — lātor, “bearer, proposer (of a law)”, agent noun to ferō/lātus; English translate, relate, collate"
+          ]
+        }
+      ],
+      "note": "Neither language says maker. Latin lātor is the one who *carries* — a Roman magistrate proposed a bill by bringing it before the assembly, so the law was borne, not built. Athens meanwhile had actual nomothetai: panels of citizens empanelled to review and set the statutes, separately from the assembly that voted them.",
+      "generated": "2026-08-15",
+      "date": "2026-08-27"
+    },
+    {
+      "id": "photograph-el-la",
+      "clue": "luciscriptum",
+      "answer": "photograph",
+      "acceptable": [
+        "photograph",
+        "photographs",
+        "photography"
+      ],
+      "source": {
+        "language": "Greek"
+      },
+      "target": {
+        "language": "Latin"
+      },
+      "difficulty": 2,
+      "roots": [
+        {
+          "target": "luci-",
+          "source": "photo- (φῶς, phôs)",
+          "meaning": "light",
+          "targetCognates": [
+            "lucid",
+            "elucidate",
+            "translucent"
+          ],
+          "sourceCognates": [
+            "photon",
+            "photosynthesis",
+            "phosphorus"
+          ],
+          "sources": [
+            "https://en.wiktionary.org/wiki/photograph — from Ancient Greek φῶς, φωτός (phôs, phōtós, “light”) + γράφω (gráphō, “I write”)",
+            "https://en.wiktionary.org/wiki/lux#Latin — lūx, lūcis, “light”; English lucid, elucidate, translucent"
+          ]
+        },
+        {
+          "target": "-scriptum",
+          "source": "-graphon (γράφω)",
+          "meaning": "written, a writing",
+          "targetCognates": [
+            "script",
+            "scripture",
+            "inscription"
+          ],
+          "sourceCognates": [
+            "autograph",
+            "telegraph",
+            "calligraphy"
+          ],
+          "sources": [
+            "https://en.wiktionary.org/wiki/scribo#Latin — scrībō, “I write”, participle scrīptum; English script, scripture, inscription",
+            "https://en.wiktionary.org/wiki/γράφω — γράφω, “I write, I draw”; English autograph, telegraph, calligraphy"
+          ]
+        }
+      ],
+      "note": "The clue's first root is already famous under its Greek name. Phosphorus is “light-bearer,” the Greek name for the morning star; Latin translated it root for root as Lucifer. Same star, same meaning, two languages — and one of them ended up in chemistry while the other ended up in hell.",
+      "generated": "2026-08-15",
+      "date": "2026-08-28"
+    },
+    {
+      "id": "polygamy-el-la",
+      "clue": "multinuptia",
+      "answer": "polygamy",
+      "acceptable": [
+        "polygamy",
+        "polygamous"
+      ],
+      "source": {
+        "language": "Greek"
+      },
+      "target": {
+        "language": "Latin"
+      },
+      "difficulty": 2,
+      "roots": [
+        {
+          "target": "multi-",
+          "source": "poly- (πολύς)",
+          "meaning": "many",
+          "targetCognates": [
+            "multiply",
+            "multitude",
+            "multiple"
+          ],
+          "sourceCognates": [
+            "polyglot",
+            "polymer",
+            "polytheism"
+          ],
+          "sources": [
+            "https://en.wiktionary.org/wiki/polygamy — Ancient Greek πολυγαμία = πολύς (polús, “many”) + γάμος (gámos, “marriage”)",
+            "https://en.wiktionary.org/wiki/multus#Latin — multus, “much, many”; English multiply, multitude, multiple"
+          ]
+        },
+        {
+          "target": "-nuptia",
+          "source": "-gamos (γάμος)",
+          "meaning": "marriage, wedding",
+          "targetCognates": [
+            "nuptial",
+            "prenuptial",
+            "connubial"
+          ],
+          "sourceCognates": [
+            "monogamy",
+            "bigamy",
+            "gamete"
+          ],
+          "sources": [
+            "https://en.wiktionary.org/wiki/nuptiae — nuptiae, “wedding, marriage”, from nūbō (“I marry”); English nuptial, connubial",
+            "https://en.wiktionary.org/wiki/γάμος — γάμος, “marriage”; English monogamy, bigamy, gamete"
+          ]
+        }
+      ],
+      "note": "The biologists borrowed this root too. A gamete is a spouse — gametes was the Greek husband, gametē the wife — so fertilisation is described in English as a marriage, and every organism that reproduces sexually is doing so under the same word.",
+      "generated": "2026-08-15",
+      "date": "2026-08-29"
+    },
+    {
+      "id": "orthodox-el-la",
+      "clue": "rectifides",
+      "answer": "orthodox",
+      "acceptable": [
+        "orthodox",
+        "orthodoxy"
+      ],
+      "source": {
+        "language": "Greek"
+      },
+      "target": {
+        "language": "Latin"
+      },
+      "difficulty": 3,
+      "roots": [
+        {
+          "target": "recti-",
+          "source": "ortho- (ὀρθός)",
+          "meaning": "straight, correct",
+          "targetCognates": [
+            "rectify",
+            "rectangle",
+            "rectitude"
+          ],
+          "sourceCognates": [
+            "orthopedic",
+            "orthography",
+            "orthodontist"
+          ],
+          "sources": [
+            "https://en.wiktionary.org/wiki/orthodox — Ancient Greek ὀρθόδοξος = ὀρθός (orthós, “straight, correct”) + δόξα (dóxa, “opinion, belief”)",
+            "https://en.wiktionary.org/wiki/rectus#Latin — rēctus, “straight, upright, correct”; English rectify, rectangle, rectitude"
+          ]
+        },
+        {
+          "target": "-fides",
+          "source": "-doxa (δόξα)",
+          "meaning": "belief, what is held",
+          "targetCognates": [
+            "fidelity",
+            "confide",
+            "infidel"
+          ],
+          "sourceCognates": [
+            "paradox",
+            "heterodox",
+            "doxology"
+          ],
+          "sources": [
+            "https://en.wiktionary.org/wiki/fides#Latin — fidēs, “faith, trust, belief”; English fidelity, confide, infidel",
+            "https://en.wiktionary.org/wiki/δόξα — δόξα, “opinion, judgement, glory”; English paradox, heterodox, doxology"
+          ]
+        }
+      ],
+      "note": "Orthopedic is the odd one in the family: orthos plus paidion, “straight child.” Nicolas Andry coined it in 1741 for the correction of children's deformities, and illustrated it with a crooked sapling lashed to a stake — still the emblem of the profession, long after it stopped being about children at all.",
+      "generated": "2026-08-15",
+      "date": "2026-08-30"
+    },
+    {
+      "id": "ventriloquist-la-el",
+      "clue": "gastrophonia",
+      "answer": "ventriloquist",
+      "acceptable": [
+        "ventriloquist",
+        "ventriloquism",
+        "ventriloquy",
+        "ventriloquists"
+      ],
+      "source": {
+        "language": "Latin"
+      },
+      "target": {
+        "language": "Greek"
+      },
+      "difficulty": 3,
+      "roots": [
+        {
+          "target": "gastro-",
+          "source": "venter, ventri-",
+          "meaning": "belly, stomach",
+          "targetCognates": [
+            "gastric",
+            "gastronomy",
+            "gastropod"
+          ],
+          "sourceCognates": [
+            "ventral",
+            "ventricle"
+          ],
+          "sources": [
+            "https://en.wiktionary.org/wiki/ventriloquism — Latin venter (“belly”) + loquī (“to speak”)",
+            "https://en.wiktionary.org/wiki/γαστήρ — γαστήρ, “belly, stomach”; English gastric, gastronomy, gastropod"
+          ]
+        },
+        {
+          "target": "-phonia",
+          "source": "-loquus (loquī)",
+          "meaning": "speaking, voice",
+          "targetCognates": [
+            "symphony",
+            "cacophony",
+            "phonetics"
+          ],
+          "sourceCognates": [
+            "eloquent",
+            "loquacious",
+            "colloquial"
+          ],
+          "sources": [
+            "https://en.wiktionary.org/wiki/φωνή — φωνή, “voice, sound”; English symphony, cacophony, phonetics",
+            "https://en.wiktionary.org/wiki/loquor#Latin — loquor, “I speak”; English eloquent, loquacious, colloquial, soliloquy"
+          ]
+        }
+      ],
+      "note": "Before it was an act it was a diagnosis. The Greek word was engastrimythos, “belly-speaker,” and the voice was taken to be a spirit lodged in the abdomen — the Septuagint uses it for the witch of Endor. The Latin translation kept the anatomy and lost the ghost.",
+      "generated": "2026-08-15",
+      "date": "2026-08-31"
+    }
+  ]
+}
