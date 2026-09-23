@@ -968,6 +968,424 @@
       "note": "Before it was an act it was a diagnosis. The Greek word was engastrimythos, “belly-speaker,” and the voice was taken to be a spirit lodged in the abdomen — the Septuagint uses it for the witch of Endor. The Latin translation kept the anatomy and lost the ghost.",
       "generated": "2026-08-15",
       "date": "2026-08-31"
+    },
+    {
+      "id": "unanimous-la-el",
+      "clue": "monopsychos",
+      "answer": "unanimous",
+      "acceptable": [
+        "unanimous",
+        "unanimously",
+        "unanimity"
+      ],
+      "source": {
+        "language": "Latin"
+      },
+      "target": {
+        "language": "Greek"
+      },
+      "difficulty": 3,
+      "roots": [
+        {
+          "target": "mono-",
+          "source": "ūnus",
+          "meaning": "one",
+          "targetCognates": [
+            "monologue",
+            "monopoly",
+            "monotone"
+          ],
+          "sourceCognates": [
+            "unity",
+            "unison",
+            "unicorn"
+          ],
+          "sources": [
+            "https://en.wiktionary.org/wiki/unanimous — ūnus (“one”) + animus (“mind”)",
+            "https://en.wiktionary.org/wiki/μόνος#Ancient_Greek — mónos, “alone, only, single”"
+          ]
+        },
+        {
+          "target": "-psychos",
+          "source": "animus",
+          "meaning": "mind, soul",
+          "targetCognates": [
+            "psychology",
+            "psychic",
+            "psychiatry"
+          ],
+          "sourceCognates": [
+            "animate",
+            "animosity",
+            "magnanimous"
+          ],
+          "sources": [
+            "https://en.wiktionary.org/wiki/unanimous — from Latin ūnanimus, “of one mind”",
+            "https://en.wiktionary.org/wiki/ψυχή#Ancient_Greek — psukhḗ, “soul, mind”"
+          ]
+        }
+      ],
+      "note": "Latin ūnanimus, “of one mind.” When English borrowed it, it pushed out a perfectly good native word built the same way: Old English ānmōd, “one-mood.”",
+      "generated": "2026-09-22",
+      "date": "2026-09-22"
+    },
+    {
+      "id": "suburb-la-el",
+      "clue": "hypopolis",
+      "answer": "suburb",
+      "acceptable": [
+        "suburb",
+        "suburbs",
+        "suburbia",
+        "suburban"
+      ],
+      "source": {
+        "language": "Latin"
+      },
+      "target": {
+        "language": "Greek"
+      },
+      "difficulty": 2,
+      "roots": [
+        {
+          "target": "hypo-",
+          "source": "sub-",
+          "meaning": "under, below",
+          "targetCognates": [
+            "hypodermic",
+            "hypothermia",
+            "hypothesis"
+          ],
+          "sourceCognates": [
+            "submarine",
+            "subway",
+            "subterranean"
+          ],
+          "sources": [
+            "https://en.wiktionary.org/wiki/suburb — Latin suburbium, from sub- (“under-”) + urbs (“city”)",
+            "https://en.wiktionary.org/wiki/ὑπό#Ancient_Greek — hupó, “under”"
+          ]
+        },
+        {
+          "target": "-polis",
+          "source": "urbs",
+          "meaning": "city",
+          "targetCognates": [
+            "metropolis",
+            "politics",
+            "cosmopolitan"
+          ],
+          "sourceCognates": [
+            "urban",
+            "urbane",
+            "conurbation"
+          ],
+          "sources": [
+            "https://en.wiktionary.org/wiki/suburb — urbs (“city”)",
+            "https://en.wiktionary.org/wiki/πόλις#Ancient_Greek — pólis, “city”"
+          ]
+        }
+      ],
+      "note": "Latin suburbium, “the under-city”: the settlement below the walls. English already had its own word built the same way, Old English underburg, and dropped it for the Latin one.",
+      "generated": "2026-09-22",
+      "date": "2026-09-23"
+    },
+    {
+      "id": "autopsy-el-la",
+      "clue": "ipsivisio",
+      "answer": "autopsy",
+      "acceptable": [
+        "autopsy",
+        "autopsies"
+      ],
+      "source": {
+        "language": "Greek"
+      },
+      "target": {
+        "language": "Latin"
+      },
+      "difficulty": 3,
+      "roots": [
+        {
+          "target": "ipsi-",
+          "source": "autos (αὐτός)",
+          "meaning": "self",
+          "targetCognates": [
+            "solipsism",
+            "ipsilateral",
+            "ipso facto"
+          ],
+          "sourceCognates": [
+            "automatic",
+            "autograph",
+            "autonomy"
+          ],
+          "sources": [
+            "https://en.wiktionary.org/wiki/autopsy — αὐτοψία, “seeing with one's own eyes”; auto- + -opsy",
+            "https://en.wiktionary.org/wiki/solipsism — sōlus (“alone”) + ipse (“self”)"
+          ]
+        },
+        {
+          "target": "-visio",
+          "source": "opsis (ὄψις)",
+          "meaning": "sight, seeing",
+          "targetCognates": [
+            "vision",
+            "visual",
+            "visible"
+          ],
+          "sourceCognates": [
+            "biopsy",
+            "optic",
+            "synopsis"
+          ],
+          "sources": [
+            "https://en.wiktionary.org/wiki/autopsy — auto- + -opsy",
+            "https://en.wiktionary.org/wiki/visio#Latin — vīsiō, “sight, vision”"
+          ]
+        }
+      ],
+      "note": "Greek autopsia meant simply “seeing for yourself,” eyewitness evidence, long before it meant a post-mortem. The medical sense is the doctor finally looking inside with their own eyes.",
+      "generated": "2026-09-22",
+      "date": "2026-09-24"
+    },
+    {
+      "id": "chameleon-el-la",
+      "clue": "terrileo",
+      "answer": "chameleon",
+      "acceptable": [
+        "chameleon",
+        "chameleons",
+        "chamaeleon"
+      ],
+      "source": {
+        "language": "Greek"
+      },
+      "target": {
+        "language": "Latin"
+      },
+      "difficulty": 4,
+      "roots": [
+        {
+          "target": "terri-",
+          "source": "chamai (χαμαί)",
+          "meaning": "on the ground",
+          "targetCognates": [
+            "terrain",
+            "territory",
+            "terrestrial"
+          ],
+          "sourceCognates": [
+            "chamomile"
+          ],
+          "sources": [
+            "https://en.wiktionary.org/wiki/chameleon — χαμαί (“on the earth, on the ground”) + λέων (“lion”)",
+            "https://en.wiktionary.org/wiki/terra#Latin — terra, “earth, ground”"
+          ]
+        },
+        {
+          "target": "-leo",
+          "source": "leōn (λέων)",
+          "meaning": "lion",
+          "targetCognates": [
+            "leonine",
+            "Leo",
+            "Leonardo"
+          ],
+          "sourceCognates": [
+            "lion",
+            "leopard"
+          ],
+          "sources": [
+            "https://en.wiktionary.org/wiki/chameleon — λέων (“lion”)",
+            "https://en.wiktionary.org/wiki/leonine — from Latin leō, from Greek λέων"
+          ]
+        }
+      ],
+      "note": "The “ground lion” is older than Greek: it is a calque of Akkadian nēšu ša qaqqari, “lion of the ground.” Chamomile is its botanical cousin, the “ground apple.”",
+      "generated": "2026-09-22",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "platypus-el-la",
+      "clue": "planipes",
+      "answer": "platypus",
+      "acceptable": [
+        "platypus",
+        "platypuses",
+        "platypi",
+        "platypodes"
+      ],
+      "source": {
+        "language": "Greek"
+      },
+      "target": {
+        "language": "Latin"
+      },
+      "difficulty": 2,
+      "roots": [
+        {
+          "target": "plani-",
+          "source": "platys (πλατύς)",
+          "meaning": "flat, broad",
+          "targetCognates": [
+            "plane",
+            "planar",
+            "explain"
+          ],
+          "sourceCognates": [
+            "plaza",
+            "plateau"
+          ],
+          "sources": [
+            "https://en.wiktionary.org/wiki/platypus — πλατύς (“flat”) + πούς (“foot”)",
+            "https://en.wiktionary.org/wiki/planus#Latin — plānus, “flat, level”"
+          ]
+        },
+        {
+          "target": "-pes",
+          "source": "pous (πούς)",
+          "meaning": "foot",
+          "targetCognates": [
+            "pedal",
+            "pedestrian",
+            "biped"
+          ],
+          "sourceCognates": [
+            "octopus",
+            "tripod",
+            "podium"
+          ],
+          "sources": [
+            "https://en.wiktionary.org/wiki/platypus — πούς (“foot”)",
+            "https://en.wiktionary.org/wiki/pes#Latin — pēs, “foot”"
+          ]
+        }
+      ],
+      "note": "Flat-foot. The name had already been used for a genus of beetle, so zoologists had to rename the animal Ornithorhynchus, “bird-snout,” and platypus survives only as the common name.",
+      "generated": "2026-09-22",
+      "date": "2026-09-26"
+    },
+    {
+      "id": "geometry-el-la",
+      "clue": "agrimensura",
+      "answer": "geometry",
+      "acceptable": [
+        "geometry",
+        "geometric",
+        "geometrical"
+      ],
+      "source": {
+        "language": "Greek"
+      },
+      "target": {
+        "language": "Latin"
+      },
+      "difficulty": 3,
+      "roots": [
+        {
+          "target": "agri-",
+          "source": "gē (γῆ)",
+          "meaning": "earth, land",
+          "targetCognates": [
+            "agriculture",
+            "agrarian",
+            "peregrine"
+          ],
+          "sourceCognates": [
+            "geography",
+            "geology",
+            "geothermal"
+          ],
+          "sources": [
+            "https://en.wiktionary.org/wiki/geometry — γῆ (“earth, land, country”) + -μετρία (“measurement”)",
+            "https://en.wiktionary.org/wiki/ager#Latin — ager, “field, land”"
+          ]
+        },
+        {
+          "target": "-mensura",
+          "source": "-metria (μέτρον)",
+          "meaning": "measure",
+          "targetCognates": [
+            "measure",
+            "dimension",
+            "immense"
+          ],
+          "sourceCognates": [
+            "thermometer",
+            "symmetry",
+            "metric"
+          ],
+          "sources": [
+            "https://en.wiktionary.org/wiki/geometry — -μετρία, from μέτρον (“a measure”)",
+            "https://en.wiktionary.org/wiki/mensura#Latin — mēnsūra, “measurement”"
+          ]
+        }
+      ],
+      "note": "Geometry began as land surveying: measuring fields again after the Nile floods. Old English had its own term, eorþcræft, “earth-craft,” before the Greek word replaced it.",
+      "generated": "2026-09-22",
+      "date": "2026-09-27"
+    },
+    {
+      "id": "conspire-la-el",
+      "clue": "sympnoia",
+      "answer": "conspire",
+      "acceptable": [
+        "conspire",
+        "conspiracy",
+        "conspirator",
+        "conspired"
+      ],
+      "source": {
+        "language": "Latin"
+      },
+      "target": {
+        "language": "Greek"
+      },
+      "difficulty": 4,
+      "roots": [
+        {
+          "target": "sym-",
+          "source": "con- (cum)",
+          "meaning": "with, together",
+          "targetCognates": [
+            "sympathy",
+            "symphony",
+            "symmetry"
+          ],
+          "sourceCognates": [
+            "connect",
+            "convene",
+            "compassion"
+          ],
+          "sources": [
+            "https://en.wiktionary.org/wiki/conspire — con- (combining form of cum, “with”) + spīrō (“breathe”)",
+            "https://en.wiktionary.org/wiki/σύν#Ancient_Greek — sún, “with, together”; assimilates to sym- before p"
+          ]
+        },
+        {
+          "target": "-pnoia",
+          "source": "spirare (spīrō)",
+          "meaning": "breathe, breathing",
+          "targetCognates": [
+            "apnea",
+            "dyspnea",
+            "pneumatic"
+          ],
+          "sourceCognates": [
+            "respiration",
+            "inspire",
+            "expire"
+          ],
+          "sources": [
+            "https://en.wiktionary.org/wiki/conspire — spīrō (“breathe”)",
+            "https://en.wiktionary.org/wiki/apnea — ἀ- + πνοή (“breathing”)"
+          ]
+        }
+      ],
+      "note": "To conspire is literally to breathe together, with heads close enough to whisper. Inspire, expire, perspire and spirit all come from the same Latin breath.",
+      "generated": "2026-09-22",
+      "date": "2026-09-28"
     }
   ]
 }

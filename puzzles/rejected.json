@@ -637,6 +637,244 @@
         "kalyptos leaves apocalypse and essentially nothing else, so the last hint is a single word. It is a strong single word.",
         "strictly New Latin coined from Greek elements (L'Héritier, 1789), so the “source: Greek” label rests on the same ruling as megaphone and photograph"
       ]
+    },
+    {
+      "id": "hydrophobia-el-la",
+      "clue": "aquitimor",
+      "answer": "hydrophobia",
+      "acceptable": [
+        "hydrophobia",
+        "hydrophobic"
+      ],
+      "source": {
+        "language": "Greek"
+      },
+      "target": {
+        "language": "Latin"
+      },
+      "difficulty": 2,
+      "roots": [
+        {
+          "target": "aqui-",
+          "source": "hydro- (ὑδρο-, from ὕδωρ)",
+          "meaning": "water",
+          "targetCognates": [
+            "aquarium",
+            "aquatic",
+            "aqueduct"
+          ],
+          "sourceCognates": [
+            "hydrant",
+            "dehydrate",
+            "hydraulic"
+          ],
+          "sources": [
+            "https://en.wiktionary.org/wiki/hydrophobia — ὑδρο-, combining form of ὕδωρ (“water”) + φοβία",
+            "https://en.wiktionary.org/wiki/aqua#Latin — aqua, “water”"
+          ]
+        },
+        {
+          "target": "-timor",
+          "source": "phobia (φοβία)",
+          "meaning": "fear",
+          "targetCognates": [
+            "timorous",
+            "timid",
+            "intimidate"
+          ],
+          "sourceCognates": [
+            "phobia",
+            "claustrophobia",
+            "arachnophobia"
+          ],
+          "sources": [
+            "https://en.wiktionary.org/wiki/hydrophobia — ὑδρο- + φοβία (“phobia”)",
+            "https://en.wiktionary.org/wiki/timor#Latin — timor, “fear, dread”, from timeō (“to fear”)"
+          ]
+        }
+      ],
+      "note": "Before it meant a fear of water, hydrophobia was the medical name for rabies: late-stage patients go into spasm when they try to swallow, and panic at the sight of a drink.",
+      "generated": "2026-09-22",
+      "flags": [
+        "“aquaphobia” is what some players will type for water + fear; it is a hybrid and a different (fear-of-drowning) sense, so I left it out of acceptable — reviewer's call"
+      ]
+    },
+    {
+      "id": "judo-ja-la",
+      "clue": "mollivia",
+      "answer": "judo",
+      "acceptable": [
+        "judo"
+      ],
+      "source": {
+        "language": "Japanese"
+      },
+      "target": {
+        "language": "Latin"
+      },
+      "difficulty": 2,
+      "roots": [
+        {
+          "target": "molli-",
+          "source": "jū (柔)",
+          "meaning": "soft, gentle",
+          "targetCognates": [
+            "mollify",
+            "emollient",
+            "mollusc"
+          ],
+          "sourceCognates": [
+            "jujitsu"
+          ],
+          "sources": [
+            "https://en.wiktionary.org/wiki/judo — 柔道 (jūdō), lit. “the soft way”",
+            "https://en.wiktionary.org/wiki/mollis#Latin — mollis, “soft, pliant, mild”"
+          ]
+        },
+        {
+          "target": "-via",
+          "source": "dō (道)",
+          "meaning": "way",
+          "targetCognates": [
+            "viaduct",
+            "deviate",
+            "trivial"
+          ],
+          "sourceCognates": [
+            "aikido",
+            "kendo",
+            "bushido"
+          ],
+          "sources": [
+            "https://en.wiktionary.org/wiki/judo — 柔道, lit. “the soft way”",
+            "https://en.wiktionary.org/wiki/via#Latin — via, “road, path, way”"
+          ]
+        }
+      ],
+      "note": "柔道, “the gentle way.” The dō is the same character as Chinese dào — the Tao — and when Kanō Jigorō founded judo in 1882 he chose it over the jutsu, “technique,” of the older jūjutsu he had trained in.",
+      "generated": "2026-09-22",
+      "flags": [
+        "the Kanō history is from https://en.wikipedia.org/wiki/Judo, which also notes “jūdō” was occasionally used by earlier jujutsu schools — so the note says he chose the name, not that he invented it"
+      ]
+    },
+    {
+      "id": "pajamas-fa-la",
+      "clue": "pedivestis",
+      "answer": "pajamas",
+      "acceptable": [
+        "pajamas",
+        "pyjamas",
+        "pajama",
+        "pyjama"
+      ],
+      "source": {
+        "language": "Persian"
+      },
+      "target": {
+        "language": "Latin"
+      },
+      "difficulty": 3,
+      "roots": [
+        {
+          "target": "pedi-",
+          "source": "pā (پا)",
+          "meaning": "leg, foot",
+          "targetCognates": [
+            "pedal",
+            "pedestrian",
+            "pedicure"
+          ],
+          "sourceCognates": [],
+          "sources": [
+            "https://en.wiktionary.org/wiki/pajamas — Persian پَا (“leg”) + جَامَه (“garment”)",
+            "https://en.wiktionary.org/wiki/%D9%BE%D8%A7#Persian — پا from PIE *pṓds (“foot”)",
+            "https://en.wiktionary.org/wiki/pes#Latin — pēs, pedis, “foot”"
+          ]
+        },
+        {
+          "target": "-vestis",
+          "source": "jāma (جامه)",
+          "meaning": "garment",
+          "targetCognates": [
+            "vest",
+            "vestment",
+            "invest"
+          ],
+          "sourceCognates": [],
+          "sources": [
+            "https://en.wiktionary.org/wiki/pajamas — جَامَه (“garment”)",
+            "https://en.wiktionary.org/wiki/vestis#Latin — vestis, “garment, clothing”"
+          ]
+        }
+      ],
+      "note": "Persian pā-jāma, “leg garment” — originally loose trousers, not nightwear. Persian pā descends from the same Indo-European word as Latin pēs and English foot, so the clue's pedi- is a distant cousin of the root it replaces.",
+      "generated": "2026-09-22",
+      "flags": [
+        "rule 5 risk: “leg” + “garment” also describes trousers or leggings; the Persian source label should settle it, but play-test",
+        "via Hindustani pājāma — labelled Persian because that is where both roots and the compound come from"
+      ]
+    },
+    {
+      "id": "rhododendron-el-la",
+      "clue": "rosiarbor",
+      "answer": "rhododendron",
+      "acceptable": [
+        "rhododendron",
+        "rhododendrons"
+      ],
+      "source": {
+        "language": "Greek"
+      },
+      "target": {
+        "language": "Latin"
+      },
+      "difficulty": 4,
+      "roots": [
+        {
+          "target": "rosi-",
+          "source": "rhodo- (ῥόδον)",
+          "meaning": "rose",
+          "targetCognates": [
+            "rosary",
+            "roseate",
+            "rosé"
+          ],
+          "sourceCognates": [
+            "rhodium",
+            "rhodopsin"
+          ],
+          "sources": [
+            "https://en.wiktionary.org/wiki/rhododendron — ῥόδον (“rose”) + δένδρον (“tree”)",
+            "https://en.wiktionary.org/wiki/rhodium — from ῥόδον (“rose”), for the colour of its salts",
+            "https://en.wiktionary.org/wiki/rosa#Latin — rosa, “rose”"
+          ]
+        },
+        {
+          "target": "-arbor",
+          "source": "dendron (δένδρον)",
+          "meaning": "tree",
+          "targetCognates": [
+            "arboretum",
+            "arboreal",
+            "arborist"
+          ],
+          "sourceCognates": [
+            "dendrite",
+            "philodendron",
+            "dendrochronology"
+          ],
+          "sources": [
+            "https://en.wiktionary.org/wiki/rhododendron — δένδρον (“tree”)",
+            "https://en.wiktionary.org/wiki/arbor#Latin — arbor, “tree”"
+          ]
+        }
+      ],
+      "note": "The Greeks' rhododendron was the oleander. Botanists later moved the name to an unrelated shrub with similar flowers — and the metal rhodium is named after the same rose, for the pink colour of its salts.",
+      "generated": "2026-09-22",
+      "flags": [
+        "hardest of the batch: the answer is long and the player has to jump from “rose tree” to a shrub that is not a rose",
+        "“rosebush” is the obvious English answer to the gloss; the Greek source label excludes it, but expect it as a first guess"
+      ]
     }
   ]
 }
